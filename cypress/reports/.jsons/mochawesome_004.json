@@ -1,0 +1,176 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 2,
+    "pending": 0,
+    "failures": 2,
+    "start": "2022-04-28T07:45:46.684Z",
+    "end": "2022-04-28T07:46:33.885Z",
+    "duration": 47201,
+    "testsRegistered": 4,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0eb00722-a46e-4aeb-9aec-fd3c499f176a",
+      "title": "",
+      "fullFile": "cypress/integration/examples/BDDCucumber/uiLinks.feature",
+      "file": "cypress/integration/examples/BDDCucumber/uiLinks.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f1cc80c5-5c7b-4057-9549-75ce5513ca87",
+          "title": "Verify the UI Links on the Login Page of CU Portal",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify the Privacy Policy Link on the Login Page",
+              "fullTitle": "Verify the UI Links on the Login Page of CU Portal Verify the Privacy Policy Link on the Login Page",
+              "timedOut": null,
+              "duration": 9073,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "56f5b4a1-a1dc-4813-8392-7c3f5427c748",
+              "parentUUID": "f1cc80c5-5c7b-4057-9549-75ce5513ca87",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify the Terms of Service Link on the Login Page",
+              "fullTitle": "Verify the UI Links on the Login Page of CU Portal Verify the Terms of Service Link on the Login Page",
+              "timedOut": null,
+              "duration": 8042,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Failed screenshot\",\n        \"value\": \"\\\\examples\\\\BDDCucumber\\\\uiLinks.feature\\\\Verify the UI Links on the Login Page of CU Portal -- Verify the Terms of Service Link on the Login Page (failed).png\"\n      }\n    ],\n    [\n      {\n        \"title\": \"Failed screenshot\",\n        \"value\": \"\\\\examples\\\\BDDCucumber\\\\uiLinks.feature\\\\Verify the UI Links on the Login Page of CU Portal -- Verify the Terms of Service Link on the Login Page (failed) (attempt 2).png\"\n      }\n    ]\n  ]\n}",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "TypeError: Cannot read properties of undefined (reading 'TermsConditionURL')",
+                "estack": "TypeError: Cannot read properties of undefined (reading 'TermsConditionURL')\n    at Context.eval (https://siu-uat.bankjoy.com/__cypress/tests?p=cypress\\integration\\examples\\BDDCucumber\\uiLinks.feature:84:35)\n    at Context.resolveAndRunStepDefinition (https://siu-uat.bankjoy.com/__cypress/tests?p=cypress\\integration\\examples\\BDDCucumber\\uiLinks.feature:12468:29)\n    at Context.eval (https://siu-uat.bankjoy.com/__cypress/tests?p=cypress\\integration\\examples\\BDDCucumber\\uiLinks.feature:11789:35)",
+                "diff": null
+              },
+              "uuid": "1eefa74d-f0c4-4999-891b-839a7b3dc235",
+              "parentUUID": "f1cc80c5-5c7b-4057-9549-75ce5513ca87",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify the FAQ Link on the Login Page",
+              "fullTitle": "Verify the UI Links on the Login Page of CU Portal Verify the FAQ Link on the Login Page",
+              "timedOut": null,
+              "duration": 2456,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Failed screenshot\",\n        \"value\": \"\\\\examples\\\\BDDCucumber\\\\uiLinks.feature\\\\Verify the UI Links on the Login Page of CU Portal -- Verify the FAQ Link on the Login Page (failed).png\"\n      }\n    ],\n    [\n      {\n        \"title\": \"Failed screenshot\",\n        \"value\": \"\\\\examples\\\\BDDCucumber\\\\uiLinks.feature\\\\Verify the UI Links on the Login Page of CU Portal -- Verify the FAQ Link on the Login Page (failed) (attempt 2).png\"\n      }\n    ]\n  ]\n}",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "Error: Step implementation missing for: user searches for a FAQ Link",
+                "estack": "Error: Step implementation missing for: user searches for a FAQ Link\n    at Context.resolveAndRunStepDefinition (https://siu-uat.bankjoy.com/__cypress/tests?p=cypress\\integration\\examples\\BDDCucumber\\uiLinks.feature:12474:11)\n    at Context.eval (https://siu-uat.bankjoy.com/__cypress/tests?p=cypress\\integration\\examples\\BDDCucumber\\uiLinks.feature:11789:35)",
+                "diff": null
+              },
+              "uuid": "8f3334a7-314a-47b0-a4df-6439d08e9c4f",
+              "parentUUID": "f1cc80c5-5c7b-4057-9549-75ce5513ca87",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify the Join Link on the Login Page",
+              "fullTitle": "Verify the UI Links on the Login Page of CU Portal Verify the Join Link on the Login Page",
+              "timedOut": null,
+              "duration": 11751,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "549ad628-e2ee-4acb-bd93-4e04398e1b91",
+              "parentUUID": "f1cc80c5-5c7b-4057-9549-75ce5513ca87",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "56f5b4a1-a1dc-4813-8392-7c3f5427c748",
+            "549ad628-e2ee-4acb-bd93-4e04398e1b91"
+          ],
+          "failures": [
+            "1eefa74d-f0c4-4999-891b-839a7b3dc235",
+            "8f3334a7-314a-47b0-a4df-6439d08e9c4f"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 31322,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress\\reports\\.jsons",
+        "charts": true,
+        "reportPageTitle": "Bankjoy Platform Regression",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "html": false,
+        "json": true,
+        "overwrite": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

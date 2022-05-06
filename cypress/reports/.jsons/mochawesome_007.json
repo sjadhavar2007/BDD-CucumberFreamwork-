@@ -1,0 +1,167 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-04-28T08:27:18.016Z",
+    "end": "2022-04-28T08:27:59.721Z",
+    "duration": 41705,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "01f28882-462d-4263-8781-a52cde927e6c",
+      "title": "",
+      "fullFile": "cypress/integration/examples/BDDCucumber/uiLinks.feature",
+      "file": "cypress/integration/examples/BDDCucumber/uiLinks.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "8d2a78a1-43e2-4456-8693-407b648de05c",
+          "title": "Verify the UI Links on the Login Page of CU Portal",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify the Privacy Policy Link on the Login Page",
+              "fullTitle": "Verify the UI Links on the Login Page of CU Portal Verify the Privacy Policy Link on the Login Page",
+              "timedOut": null,
+              "duration": 10039,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "c87f0f88-e987-4ed2-a3e5-7e07475fbe43",
+              "parentUUID": "8d2a78a1-43e2-4456-8693-407b648de05c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify the Terms of Service Link on the Login Page",
+              "fullTitle": "Verify the UI Links on the Login Page of CU Portal Verify the Terms of Service Link on the Login Page",
+              "timedOut": null,
+              "duration": 8363,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "4d65b005-d7fa-4af4-8407-35a2cc7059d1",
+              "parentUUID": "8d2a78a1-43e2-4456-8693-407b648de05c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify the FAQ Link on the Login Page",
+              "fullTitle": "Verify the UI Links on the Login Page of CU Portal Verify the FAQ Link on the Login Page",
+              "timedOut": null,
+              "duration": 10131,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "ccf8fb70-4a26-49d1-9e52-9bfc110f8973",
+              "parentUUID": "8d2a78a1-43e2-4456-8693-407b648de05c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify the Join Link on the Login Page",
+              "fullTitle": "Verify the UI Links on the Login Page of CU Portal Verify the Join Link on the Login Page",
+              "timedOut": null,
+              "duration": 9145,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "ee6d972b-9459-440f-99ec-248e5d11f65d",
+              "parentUUID": "8d2a78a1-43e2-4456-8693-407b648de05c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c87f0f88-e987-4ed2-a3e5-7e07475fbe43",
+            "4d65b005-d7fa-4af4-8407-35a2cc7059d1",
+            "ccf8fb70-4a26-49d1-9e52-9bfc110f8973",
+            "ee6d972b-9459-440f-99ec-248e5d11f65d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 37678,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress\\reports\\.jsons",
+        "charts": true,
+        "reportPageTitle": "Bankjoy Platform Regression",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "html": false,
+        "json": true,
+        "overwrite": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

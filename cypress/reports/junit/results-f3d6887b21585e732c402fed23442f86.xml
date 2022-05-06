@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="119.8930" tests="4" failures="2">
+  <testsuite name="Root Suite" timestamp="2022-04-28T09:06:53" tests="0" file="cypress/integration/examples/BDDCucumber/uiLinks.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Verify the UI Links on the Login Page of CU Portal" timestamp="2022-04-28T09:06:53" tests="4" time="119.8460" failures="2">
+    <testcase name="Verify the UI Links on the Login Page of CU Portal Verify the Privacy Policy Link on the Login Page" time="25.9850" classname="Verify the Privacy Policy Link on the Login Page">
+      <failure message="Timed out retrying after 8000ms: expected &apos;https://siucu.org/wp-content/uploads/2020/04/MSA-Our-Privacy-Notice-SIUCU-02-08-20.pdf&apos; to equal &apos;http://siucu.org/wp-content/uploads/2020/04/MSA-Our-Privacy-Notice-SIUCU-02-08-20.pdf&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 8000ms: expected 'https://siucu.org/wp-content/uploads/2020/04/MSA-Our-Privacy-Notice-SIUCU-02-08-20.pdf' to equal 'http://siucu.org/wp-content/uploads/2020/04/MSA-Our-Privacy-Notice-SIUCU-02-08-20.pdf'
+    at Context.eval (https://siu-uat.bankjoy.com/__cypress/tests?p=cypress\integration\examples\BDDCucumber\uiLinks.feature:73:12)
+    at Context.resolveAndRunStepDefinition (https://siu-uat.bankjoy.com/__cypress/tests?p=cypress\integration\examples\BDDCucumber\uiLinks.feature:12477:29)
+    at Context.eval (https://siu-uat.bankjoy.com/__cypress/tests?p=cypress\integration\examples\BDDCucumber\uiLinks.feature:11798:35)]]></failure>
+    </testcase>
+    <testcase name="Verify the UI Links on the Login Page of CU Portal Verify the Terms of Service Link on the Login Page" time="19.7540" classname="Verify the Terms of Service Link on the Login Page">
+      <failure message="Timed out retrying after 8000ms: expected &apos;https://siucu.org/wp-content/uploads/2020/04/Online-Banking-Agreement.pdf&apos; to equal &apos;http://siucu.org/wp-content/uploads/2020/04/Online-Banking-Agreement.pdf&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 8000ms: expected 'https://siucu.org/wp-content/uploads/2020/04/Online-Banking-Agreement.pdf' to equal 'http://siucu.org/wp-content/uploads/2020/04/Online-Banking-Agreement.pdf'
+    at Context.eval (https://siu-uat.bankjoy.com/__cypress/tests?p=cypress\integration\examples\BDDCucumber\uiLinks.feature:88:12)
+    at Context.resolveAndRunStepDefinition (https://siu-uat.bankjoy.com/__cypress/tests?p=cypress\integration\examples\BDDCucumber\uiLinks.feature:12477:29)
+    at Context.eval (https://siu-uat.bankjoy.com/__cypress/tests?p=cypress\integration\examples\BDDCucumber\uiLinks.feature:11798:35)]]></failure>
+    </testcase>
+    <testcase name="Verify the UI Links on the Login Page of CU Portal Verify the FAQ Link on the Login Page" time="14.3440" classname="Verify the FAQ Link on the Login Page">
+    </testcase>
+    <testcase name="Verify the UI Links on the Login Page of CU Portal Verify the Join Link on the Login Page" time="14.8990" classname="Verify the Join Link on the Login Page">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,3 @@
+# Ignore npm dependency files
+/node_modules
+.vscode

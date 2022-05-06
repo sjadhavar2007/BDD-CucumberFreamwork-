@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="120.8650" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-04-22T07:52:02" tests="0" file="cypress/integration/examples/TransactionHistory.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Transaction History" timestamp="2022-04-22T07:52:02" tests="3" time="120.8370" failures="0">
+    <testcase name="Transaction History Transaction_History_Verification_Of_Transaction_History_Display_TC01" time="36.1100" classname="Transaction_History_Verification_Of_Transaction_History_Display_TC01">
+    </testcase>
+    <testcase name="Transaction History Transaction_History_Verification_Of_Transaction_History_Display_TC02" time="32.5930" classname="Transaction_History_Verification_Of_Transaction_History_Display_TC02">
+    </testcase>
+    <testcase name="Transaction History Transaction_History_Verification_Of_Transaction_History_Display_TC03" time="48.3460" classname="Transaction_History_Verification_Of_Transaction_History_Display_TC03">
+    </testcase>
+  </testsuite>
+</testsuites>

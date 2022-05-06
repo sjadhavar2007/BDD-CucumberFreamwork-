@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="29.8630" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-04-29T10:52:53" tests="0" file="cypress/integration/examples/BDDCucumber/scheduledInternalRecurring.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Recurring internal transfer schedule starting on the weekend/holiday" timestamp="2022-04-29T10:52:53" tests="1" time="29.8480" failures="0">
+    <testcase name="Recurring internal transfer schedule starting on the weekend/holiday Verify user is able to schedule a recurring internal transfer starting on the weekend/holiday" time="12.8640" classname="Verify user is able to schedule a recurring internal transfer starting on the weekend/holiday">
+    </testcase>
+  </testsuite>
+</testsuites>

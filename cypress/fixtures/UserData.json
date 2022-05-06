@@ -1,0 +1,20 @@
+{
+  "UserName": "videoguy111",
+  "Password": "Welcome1!",
+  "PrivacyPolicyURL" : "https://siucu.org/wp-content/uploads/2020/04/MSA-Our-Privacy-Notice-SIUCU-02-08-20",
+  "TermsConditionURL" : "https://siucu.org/wp-content/uploads/2020/04/Online-Banking-Agreement.pdf",
+  "FAQURL" : "https://mobile.silvercloudinc.com/mobileapp/siu_cu/index.html",
+  "EmailAddress" : "susobhan@bankjoy.com",
+  "Pwd" : "Tudip@123",
+  "defaultDate" : "04/01/2022-04/26/2022",
+  "searchTerm": "Online banking Withdrawal Transfer To S 0077",
+  "amount": "$ 0.04",
+  "startDate": "05/30/2022",
+  "endDate": "07/30/2022",
+  "frequency": "Weekly",
+  "groupName" : "Testing Group",
+  "groupName2" : "Testing Group2",
+  "AccountNumber": " SIU Credit Union - XXX51-S0023 ",
+  "TransferMoneyFromAcc": " SIU Credit Union - XXX05-S0091 ",
+  "TransferMoneyTOAcc": " SIU Credit Union - XXX09-S0091 "
+}

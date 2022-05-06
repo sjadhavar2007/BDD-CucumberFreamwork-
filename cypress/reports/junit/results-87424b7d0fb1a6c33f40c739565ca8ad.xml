@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="17.9200" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-04-29T10:52:30" tests="0" file="cypress/integration/examples/BDDCucumber/groupAccount.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Group Account" timestamp="2022-04-29T10:52:30" tests="1" time="17.9080" failures="0">
+    <testcase name="Group Account Verify user is able to create a new Group" time="15.6860" classname="Verify user is able to create a new Group">
+    </testcase>
+  </testsuite>
+</testsuites>

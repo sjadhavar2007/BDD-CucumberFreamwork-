@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-04-28T03:58:27.123Z",
+    "end": "2022-04-28T03:58:39.204Z",
+    "duration": 12081,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "37a13a8c-4507-43b2-a261-60d878972289",
+      "title": "",
+      "fullFile": "cypress/integration/examples/BDDCucumber/uiLinks.feature",
+      "file": "cypress/integration/examples/BDDCucumber/uiLinks.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ea720be8-df18-477f-8163-54eab2cf0936",
+          "title": "Verify the UI Links on the Login Page of CU Portal",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify the Privacy Policy Link on the Login Page",
+              "fullTitle": "Verify the UI Links on the Login Page of CU Portal Verify the Privacy Policy Link on the Login Page",
+              "timedOut": null,
+              "duration": 8391,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "0ad532e2-75ff-446a-9750-0c1508f7122a",
+              "parentUUID": "ea720be8-df18-477f-8163-54eab2cf0936",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0ad532e2-75ff-446a-9750-0c1508f7122a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8391,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress\\reports\\.jsons",
+        "charts": true,
+        "reportPageTitle": "Bankjoy Platform Regression",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "html": false,
+        "json": true,
+        "overwrite": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

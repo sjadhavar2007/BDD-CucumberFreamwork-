@@ -1,0 +1,31 @@
+{
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 8000,
+  "pageLoadTimeout": 30000,
+  "env": {
+    "url": "https://siu-uat.bankjoy.com/sign-in",
+    "adminUrl": "https://siu-uat.bankjoy.com/admin"
+  },
+  "testFiles": "**/*.feature",
+  "retries": {
+    "runMode": 1
+  },
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "cypress-mochawesome-reporter, mocha-junit-reporter",
+    "cypressMochawesomeReporterReporterOptions": {
+      "reportDir": "cypress/reports",
+      "charts": true,
+      "reportPageTitle": "Bankjoy Platform Regression",
+      "embeddedScreenshots": true,
+      "inlineAssets": true,
+      "html": false,
+      "json": true,
+      "overwrite": false
+    },
+    "mochaJunitReporterReporterOptions": {
+      "mochaFile": "cypress/reports/junit/results-[hash].xml"
+    }
+  },
+  "video": false
+}

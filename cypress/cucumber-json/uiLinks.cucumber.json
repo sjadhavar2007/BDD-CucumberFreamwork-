@@ -1,0 +1,244 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "UI Links on the Login Page of CU Portal",
+    "line": 1,
+    "id": "ui-links-on-the-login-page-of-cu-portal",
+    "tags": [],
+    "uri": "uiLinks.feature",
+    "elements": [
+      {
+        "id": "ui-links-on-the-login-page-of-cu-portal;verify-the-privacy-policy-link-on-the-login-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify the Privacy Policy Link on the Login Page",
+        "tags": [
+          {
+            "name": "@PlatformRegression",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user launches the CU portal",
+            "result": {
+              "status": "undefined",
+              "duration": 91000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "user searches for a Privacy Policy Link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user clicks on the Privacy Policy link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the privacy policy should open in a new browser tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the Privacy Policy Url should match with the url configured in the Admin portal",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ui-links-on-the-login-page-of-cu-portal;verify-the-terms-of-service-link-on-the-login-page",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Verify the Terms of Service Link on the Login Page",
+        "tags": [
+          {
+            "name": "@PlatformRegression",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user launches the CU portal",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "user searches for a Terms of Service Link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user clicks on the Terms of Service Link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the Terms of Service document should open in a new browser tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the Terms of Service Url should match with the url configured in the Admin portal",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ui-links-on-the-login-page-of-cu-portal;verify-the-faq-link-on-the-login-page",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Verify the FAQ Link on the Login Page",
+        "tags": [
+          {
+            "name": "@PlatformRegression",
+            "line": 20
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user launches the CU portal",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "user searches for a FAQ Link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "user clicks on the FAQ Link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the FAQ document should open in a new browser tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the FAQ Url should match with the url configured in the Admin portal",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ui-links-on-the-login-page-of-cu-portal;verify-the-join-link-on-the-login-page",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Verify the Join Link on the Login Page",
+        "tags": [
+          {
+            "name": "@PlatformRegression",
+            "line": 27
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user launches the CU portal",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "user searches for a Join Link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "user clicks on the Join Link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "user should be navigated to Apply Form window",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

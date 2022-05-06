@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="47.2110" tests="4" failures="2">
+  <testsuite name="Root Suite" timestamp="2022-04-28T07:45:46" tests="0" file="cypress/integration/examples/BDDCucumber/uiLinks.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Verify the UI Links on the Login Page of CU Portal" timestamp="2022-04-28T07:45:46" tests="4" time="47.1780" failures="2">
+    <testcase name="Verify the UI Links on the Login Page of CU Portal Verify the Privacy Policy Link on the Login Page" time="9.0730" classname="Verify the Privacy Policy Link on the Login Page">
+    </testcase>
+    <testcase name="Verify the UI Links on the Login Page of CU Portal Verify the Terms of Service Link on the Login Page" time="8.8180" classname="Verify the Terms of Service Link on the Login Page">
+      <failure message="Cannot read properties of undefined (reading &apos;TermsConditionURL&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'TermsConditionURL')
+    at Context.eval (https://siu-uat.bankjoy.com/__cypress/tests?p=cypress\integration\examples\BDDCucumber\uiLinks.feature:84:35)
+    at Context.resolveAndRunStepDefinition (https://siu-uat.bankjoy.com/__cypress/tests?p=cypress\integration\examples\BDDCucumber\uiLinks.feature:12468:29)
+    at Context.eval (https://siu-uat.bankjoy.com/__cypress/tests?p=cypress\integration\examples\BDDCucumber\uiLinks.feature:11789:35)]]></failure>
+    </testcase>
+    <testcase name="Verify the UI Links on the Login Page of CU Portal Verify the FAQ Link on the Login Page" time="1.8000" classname="Verify the FAQ Link on the Login Page">
+      <failure message="Step implementation missing for: user searches for a FAQ Link" type="Error"><![CDATA[Error: Step implementation missing for: user searches for a FAQ Link
+    at Context.resolveAndRunStepDefinition (https://siu-uat.bankjoy.com/__cypress/tests?p=cypress\integration\examples\BDDCucumber\uiLinks.feature:12474:11)
+    at Context.eval (https://siu-uat.bankjoy.com/__cypress/tests?p=cypress\integration\examples\BDDCucumber\uiLinks.feature:11789:35)]]></failure>
+    </testcase>
+    <testcase name="Verify the UI Links on the Login Page of CU Portal Verify the Join Link on the Login Page" time="11.7510" classname="Verify the Join Link on the Login Page">
+    </testcase>
+  </testsuite>
+</testsuites>

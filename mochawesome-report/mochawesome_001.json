@@ -1,0 +1,114 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-04-26T10:02:25.415Z",
+    "end": "2022-04-26T10:02:27.944Z",
+    "duration": 2529,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "bbf73762-ecfa-4144-a7bc-718b587df37a",
+      "title": "",
+      "fullFile": "cypress/integration/examples/Enrollment.spec.js",
+      "file": "cypress/integration/examples/Enrollment.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9eb162dd-e767-4981-b430-3b8e474bcdf6",
+          "title": "Enrollment on All Platform",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Enrollment_Verification_of_Self_Enrollment_Primary_User_MFA_On_TC05",
+              "fullTitle": "Enrollment on All Platform Enrollment_Verification_of_Self_Enrollment_Primary_User_MFA_On_TC05",
+              "timedOut": null,
+              "duration": 250,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Failed screenshot\",\n        \"value\": \"\\\\examples\\\\Enrollment.spec.js\\\\Enrollment on All Platform -- Enrollment_Verification_of_Self_Enrollment_Primary_User_MFA_On_TC05 (failed).png\"\n      }\n    ],\n    [\n      {\n        \"title\": \"Failed screenshot\",\n        \"value\": \"\\\\examples\\\\Enrollment.spec.js\\\\Enrollment on All Platform -- Enrollment_Verification_of_Self_Enrollment_Primary_User_MFA_On_TC05 (failed) (attempt 2).png\"\n      }\n    ]\n  ]\n}",
+              "code": "const adminLoginPage = new _AdminLoginPage.default();\ncy.visit(Cypress.env('adminUrl'));\nadminLoginPage.getEmailAddress().type(this.testData.EmailAddress);\nadminLoginPage.getPassword().type(this.testData.Pwd);\nadminLoginPage.getSignInBtn().click();",
+              "err": {
+                "message": "TypeError: Cannot read properties of undefined (reading 'EmailAddress')",
+                "estack": "TypeError: Cannot read properties of undefined (reading 'EmailAddress')\n    at Context.eval (https://siu-uat.bankjoy.com/__cypress/tests?p=cypress\\integration\\examples\\Enrollment.spec.js:120:57)",
+                "diff": null
+              },
+              "uuid": "c23750ce-200c-4097-9197-6354e0e57765",
+              "parentUUID": "9eb162dd-e767-4981-b430-3b8e474bcdf6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "c23750ce-200c-4097-9197-6354e0e57765"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 250,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress\\reports\\.jsons",
+        "charts": true,
+        "reportPageTitle": "Bankjoy Platform Regression",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "html": false,
+        "json": true,
+        "overwrite": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

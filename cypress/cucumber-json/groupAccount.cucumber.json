@@ -1,0 +1,120 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Group Account",
+    "line": 1,
+    "id": "group-account",
+    "tags": [],
+    "uri": "groupAccount.feature",
+    "elements": [
+      {
+        "id": "group-account;verify-user-is-able-to-create-a-new-group",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify user is able to create a new Group",
+        "tags": [
+          {
+            "name": "@PlatformRegression",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user launches the CU portal",
+            "result": {
+              "status": "passed",
+              "duration": 2400000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enters valid UserName and Password and Clicks on Continue",
+            "result": {
+              "status": "failed",
+              "duration": 12961000000,
+              "error_message": "AssertionError: Timed out retrying after 8000ms: Expected to find element: `button.dialog-close`, but never found it.\n    at Context.eval (https://siu-uat.bankjoy.com/__cypress/tests?p=cypress\\support\\index.js:22:37)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should login successfully and navigate to Dashboard page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user clicks on Customize Dashboard button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user navigated to Customize Dashboard Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "user clicks on Create New Group button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user navigated to Create New Group Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "user enters Group Name, Select Group Color, Select Accounts to be included",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "user clicks on Create Group button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "a new Group should be created successfully",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

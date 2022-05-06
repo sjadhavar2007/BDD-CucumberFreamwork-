@@ -1,0 +1,102 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Account Groups appearance in Dashboard Page",
+    "line": 1,
+    "id": "account-groups-appearance-in-dashboard-page",
+    "tags": [],
+    "uri": "dashboard.feature",
+    "elements": [
+      {
+        "id": "account-groups-appearance-in-dashboard-page;verify-accounts-are-showing-in-different-groups-in-dashboard",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Verify Accounts are showing in different Groups in Dashboard",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user launches the CU portal",
+            "result": {
+              "status": "passed",
+              "duration": 4145000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enters valid UserName and Password and Clicks on Continue",
+            "result": {
+              "status": "passed",
+              "duration": 12849000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should login successfully and navigate to Dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "user verifies Account Groups in the Dashboard Page",
+            "result": {
+              "status": "passed",
+              "duration": 21299000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user selects one Account tile from one visible Group",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the tile should display Ac Name, Ac Holder Name, Masked Ac No, SubAc ID, Available Balance and Current Balance",
+            "result": {
+              "status": "passed",
+              "duration": 83000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user navigated to the Customized Dashboard Page",
+            "result": {
+              "status": "passed",
+              "duration": 3551000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the values should match with the corresponding value in the Customized Dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 18756000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

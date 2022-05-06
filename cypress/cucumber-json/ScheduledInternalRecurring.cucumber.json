@@ -1,0 +1,137 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Recurring internal transfer schedule starting on the weekend/holiday",
+    "line": 1,
+    "id": "recurring-internal-transfer-schedule-starting-on-the-weekend/holiday",
+    "tags": [],
+    "uri": "scheduledInternalRecurring.feature",
+    "elements": [
+      {
+        "id": "recurring-internal-transfer-schedule-starting-on-the-weekend/holiday;verify-user-is-able-to-schedule-a-recurring-internal-transfer-starting-on-the-weekend/holiday",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Verify user is able to schedule a recurring internal transfer starting on the weekend/holiday",
+        "tags": [
+          {
+            "name": "@PlatformRegression",
+            "line": 8
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user launches the CU portal",
+            "result": {
+              "status": "passed",
+              "duration": 2984000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enters valid UserName and Password and Clicks on Continue",
+            "result": {
+              "status": "passed",
+              "duration": 8580000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should login successfully and navigate to Dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "user clicks on Transfer Money tab and navigated to Transfer Money Page",
+            "result": {
+              "status": "passed",
+              "duration": 1270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user selects Sender Account and Recipient Account and clicks on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 18753000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user enters Amount, Date, Frequency, End Date and clicks on Continue Button",
+            "result": {
+              "status": "passed",
+              "duration": 7830000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user should be navigated to Review Transfer page",
+            "result": {
+              "status": "passed",
+              "duration": 178000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "user clicks on Continue Button",
+            "result": {
+              "status": "passed",
+              "duration": 579000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "\"Your transfer has been scheduled.\" message should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 835000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user navigated to Scheduled Transfer page and searches the scheduled transfer",
+            "result": {
+              "status": "passed",
+              "duration": 3549000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Transaction amount, transfer date and frequency should match with the user input",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

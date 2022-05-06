@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="19.2500" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-04-28T04:12:44" tests="0" file="cypress/integration/examples/BDDCucumber/uiLinks.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Verify the UI Links on the Login Page of CU Portal" timestamp="2022-04-28T04:12:44" tests="2" time="19.2350" failures="0">
+    <testcase name="Verify the UI Links on the Login Page of CU Portal Verify the Privacy Policy Link on the Login Page" time="9.3990" classname="Verify the Privacy Policy Link on the Login Page">
+    </testcase>
+    <testcase name="Verify the UI Links on the Login Page of CU Portal Verify the Terms of Service Link Link on the Login Page" time="7.5550" classname="Verify the Terms of Service Link Link on the Login Page">
+    </testcase>
+  </testsuite>
+</testsuites>
